@@ -1,0 +1,7 @@
+NOME = input("")
+SFIXO = float(input(""))
+VENDAS = float(input(""))
+
+TOTAL = SFIXO + VENDAS*0.15
+
+print("TOTAL = R$ %.2f" %TOTAL)
