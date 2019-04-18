@@ -1,0 +1,8 @@
+FUNC = int(input(""))
+HT = int(input(""))
+VALOR = float(input(""))
+
+SALARY = HT * VALOR
+
+print("NUMBER =",FUNC)
+print("SALARY = U$ %.2f" %SALARY)
