@@ -1,0 +1,7 @@
+A = float(input(""))
+B = float(input(""))
+
+MEDIA = ((A*3.5)+(B*7.5))/11
+
+if MEDIA >= 0 and MEDIA <=10:
+    print("MEDIA = %.5f" %MEDIA)
